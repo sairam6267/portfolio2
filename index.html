@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/portfolio.css">
+</head>
+<body>
+    <div class="contianer-flex">
+        <div class="row">
+            <div class="col col-md-3 border border" style="height: auto;">
+              <!-- PORTFOLIO CARD  -->
+                <div id="portfoliocard" class="card  mt-2 ml-3" style="width:21rem;">
+                    <!-- PORTFOLIO BODY  -->
+                    <div class="card-body">
+                      <img src="../portfolio/assets/indian.jpg"  style="width:150px;height:150px" class="center-block bg-light" alt="">
+                        <h5 class="card-title mt-2">Basa Sai Ram</h5>
+                        <p class="card-subtitle text-muted">Associate Software Engineer</p>
+                        <p class="card-text">Ruby | Python Developer at Bizdata.inc</p>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=sairam160305@gmail.com" target="_blank" class="mail_hover" >sairam160305@gmail.com</a> <br>
+                        <a href="https://www.linkedin.com/in/basasairam/" target="_blank" class="text-decoration-none"><b class="text-dark">linkedin:</b> basasairam </a>
+                    </div>
+                    <!--PORTFOLIO SEEMORE DROPDOWN  -->
+                    <div class="accordion " id="portfolioseemore">
+                          <div class="card bg-light" id="portfolioseemorebtn">
+                              <button class="btn btn-transparent text-right text-muted " type="button" data-toggle="collapse" data-target="#portfolioseemorecollapse" aria-expanded="true" aria-controls="collapseOne">
+                                see less...
+                              </button>
+                          </div>
+                          <div id="portfolioseemorecollapse" class="collapse show" aria-labelledby="portfolioseemorebtn" data-parent="#portfolioseemore">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Myself</li>
+                                    <li class="list-group-item">Professional Experience</li>
+                                    <li class="list-group-item">Skills</li>
+                                    <li class="list-group-item">Education</li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- COLUMN 2 -->
+            <div class="col  mt-2">
+                <!-- CAROUSEL  -->
+                <div class="col ">
+                    <div id="portfoliocarouselitems" class="carousel slide " data-ride="carousel">
+                        <div class="carousel-inner">
+                          <!-- carousel 1 -->
+                          <div class="carousel-item active" style="width:100%;height:200px">
+                              <div class="col col-md-5" id="carouselcard" >
+                                <div class="card mb-2 shadow" style="height:185px;">
+                                    <img src="../portfolio/assets/gmail-4561841_960_720.webp" class="card-img mt-2 " alt="" style="width:1.35cm;height:1cm">
+                                    <div class="card-body ">
+                                      <p class="card-title mt-3 "></p>
+                                      <!-- <small class="card-text"></small> -->
+                                      <span >
+                                        Communicate through the mail for more details......  <br> <br>
+                                        <b>Mail id:</b>   
+                                        <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=sairam160305@gmail.com" target="_blank" class="mail_hover" >sairam160305@gmail.com</a>
+                                      </span>
+
+                                    </div>
+                                </div>
+                              </div>
+                          </div>
+                          <!-- CAROUSE 2 -->
+                          <div class="carousel-item " style="width:100%;height:200px">
+                            <div class="col col-md-5 " id="carouselcard" >
+                              <div class="card mb-2 shadow" style="height:185px;" >
+                                <img src="../portfolio/assets/Linkedin-Logo.png" class="card-img mt-2" alt="" style="width: 2cm;height:1.25cm">
+                                <div class="card-body">
+                                  <p class="card-title text-success">Great minds Never minds if <i>idea's</i> are copied....</p>
+                                  <blockquote class="blackquote">
+                                    <footer class="blockquote-footer text-right text-dark"><cite >Sai Ram Basa</cite></footer>
+                                  </blockquote>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- CAROUSEL 3 -->
+                          <div class="carousel-item " style="width:100%;height:200px"">
+                            <div class="col col-md-5 " id="carouselcard" >
+                              <div class="card mb-2 shadow" style="height:185px;" >
+                                <img src="../portfolio/assets/GitHub-Emblem.png" class="card-img mt-2" alt="" style="width: 2cm;height:1.15cm">
+                                <div class="card-body">
+                                  <h5 class="card-title">
+                                    sairam6267
+                                  </h5>
+                                  <p class="card-text">Repositories: EDAs <br> Covid19  | Amcat | pubg | Hypothesis Testing</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- CAROUSEL CONTROLS  -->
+                        <a class="carousel-control-prev" href="#portfoliocarouselitems" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#portfoliocarouselitems" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+                </div>
+                <div class="col mt-3" id="portfolioitems">
+                      <div class="row gx-5">
+                        <div class="col col-md-6">
+                           <div class="card">
+                            <h5 class="card-header">Myself</h5>
+                              <div class="card-body">
+                                <p class="card-text">
+                                  I <b>Basa Sai Ram</b> working as a python and ruby Developer in Reaserch and Development team at bizdata.inc Bangalore from 2021-june-23 and completed graduation in 2020 as a Mechanical Engineer.I not only stick to the developer but as well as having skills in Data Analysis and Front End Developer, continuous learning and creative ideas is my ability and capability to grow in career.
+                                </p>
+                              </div>
+                           </div>
+                         <!-- </div> -->
+                        </div>
+                        <div class="col  ">
+                          <div class="card">
+                            <h5 class="card-header">
+                              Professional Expereince <small class="text-dark">[June-2021 to till-date]</small>
+                            </h5>
+                            <div class="card-body">
+                              <p class="card-text">
+                                1. ETL Management <br>
+                                2. JDBC connections <br>
+                                3. Authenctications (oauth 1.0) <br>
+                                4. Developing web applications architecture <br>
+                                5. REST Api's <br>
+                                6. SQL Databases <br>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 mt-2">
+                          <div class="card">
+                            <h5 class="card-header">
+                              skills
+                            </h5>
+                            <div class="card-body">
+                              <ul class="card-text">
+                                <li>Python </li>
+                                <li>Ruby</li>
+                                <li>Data Analysis</li>
+                                <li>Front End Development</li>
+                                <li>Angular</li>
+                                <li>ExpressJS</li>
+                                <li>NodeJS</li>
+                                <li>GitHub,GitLab</li>
+                                <li>AWS Deployment</li>
+                              </ul>
+                            </div>
+                          </div>
+                         </div>
+                         <div class="col mt-2">
+                           <!-- <div class="card"> -->
+                             <h5 class="card-header">
+                                Education
+                             </h5>
+                             <table class="table table-hover">
+                              <thead>
+                                <tr>
+                                  <!-- <th class="text-secondary">Qualification</th> -->
+                                  <th class="text-secondary">stream</th>
+                                  <th class="text-secondary">Year of passing</th>
+                                  <th class="text-secondary">percentage or CGPA</th>
+                                  <th class="text-secondary">Qualification</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>Mechanical Engineering</td>
+                                  <td>2020</td>
+                                  <td>7.09</td>
+                                  <td>B.Tech</td>
+                                </tr>
+                                <tr>
+                                  <td>Maths.Physics.Chemistry(MPC)</td>
+                                  <td>2016</td>
+                                  <td>92%</td>
+                                  <td>Intermediate</td>
+                                </tr>
+                                <tr>
+                                  <td>10th</td>
+                                  <td>2014</td>
+                                  <td>8.7</td>
+                                  <td>SSC</td>
+                                </tr>
+                              </tbody>
+                             </table>
+                           </div>
+                         </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

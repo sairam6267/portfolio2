@@ -1,0 +1,46 @@
+.colimg{
+    min-height: 150px;
+
+}
+.center-block {
+    margin-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-size: contain; */
+  } 
+
+
+#portfoliocard{
+    background-color: rgba(231, 228, 221, 0.884);
+}
+#portfoliocarouselitems{
+    background-color: rgba(231, 228, 221, 0.884);
+}
+
+#portfolioseemorecollapse .list-group-item:hover{
+    background-color: rgb(241, 240, 233);
+}
+.mail_hover:hover{
+    color:rgb(207, 150, 43);
+    text-decoration: none;
+}
+#portfoliocarouselitems .carousel-item{
+    margin-top: 15px;
+}
+#portfoliocarouselitems #carouselcard{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#portfoliocarouselitems .carousel-item .card-img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+#portfolioitems .card-header{
+ color: rgb(203, 139, 20);
+}
